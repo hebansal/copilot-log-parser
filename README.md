@@ -46,3 +46,11 @@ python3 parser.py ~/Downloads/copilot_session.jsonl code_review.md
 ## License
 MIT License. Feel free to use, modify, and distribute.
 
+## 🤝 Contributing, Feedback & Support
+If you encounter any issues, find an unparsed log segment, or have ideas for enhancement, please feel free to reach out:
+
+*   **File a Bug / Feature Request:** Open a formal ticket directly via the [GitHub Issues Page](https://github.com).
+*   **Contact via Email:** Send your inquiries or structural log samples directly to **hebansal@github.com** (or insert your preferred public email address).
+
+Contributions of all types are welcome! Please fork the repository and submit a pull request for structural updates.
+
