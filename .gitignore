@@ -1,0 +1,16 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+
+# Local testing files (Do not publish your own logs!)
+*.json
+*.jsonl
+*.md
+!README.md
+
