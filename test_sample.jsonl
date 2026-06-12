@@ -1,0 +1,5 @@
+{"kind":1,"k":["inputState","inputText"],"v":"How to fix performance blocks?"}
+{"kind":2,"v":[{"kind":"thinking","value":"Analyzing database dependencies..."}]}
+{"kind":2,"v":[{"inlineReference":{"name":"JSON.stringify()"}},{"value":" causes severe latency blocks inside "},{"inlineReference":{"fsPath":"/home/user/project/src/cache/index.js"}}]}
+{"corrupted_json_line_test_marker...
+

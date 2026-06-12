@@ -1,4 +1,4 @@
-name: Python Syntax & Format Validation
+name: Python Syntax & Format Validation and Integration Tests
 
 on:
   push:
@@ -24,3 +24,6 @@ jobs:
         # Check for syntax errors or undefined names
         python3 -m compileall .
 
+    - name: Run Modular Integration Tests
+      run: |
+        python3 -m unittest test_parser.py
