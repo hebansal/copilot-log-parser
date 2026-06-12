@@ -20,11 +20,15 @@ def format_inline_reference(ref):
     # Case B: Direct file system path reference
     if "fsPath" in ref:
         full_path = ref["fsPath"]
-        if "backend" in full_path.lower():
-            return f" `{full_path.split('/')[-2]}/{full_path.split('/')[-1]}` "
+        parts = [p for p in full_path.split('/') if p]
+        
+        # If the path is deep enough, keep the last two parts (e.g., 'cache/index.js')
+        if len(parts) >= 2:
+            return f" `{parts[-2]}/{parts[-1]}` "
         return f" `{os.path.basename(full_path)}` "
         
     return ""
+
 
 def extract_responses(data):
     """Normalizes raw variation arrays down to flat sequential response chunks."""
